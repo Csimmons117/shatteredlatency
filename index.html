@@ -10,15 +10,21 @@
         
     </head>   
     <body>
-        <nav class="test">
-            <li><a href="#hey">Home</a></li>
-            <li>About me </li>
+    <div class="container">
+        <nav class="test" id="sticky">
+            <!--style="text-decoration:none; here takes priority vs having it in the css sheet-->
+            <li><a href="#HOME" style="text-decoration:none; color: white;">Home</a></li>
+            <li><a href="#ABOUT">About me</a></li>
             <li>Contact Support</li>
         </nav>
-        <div class="slide1">
+        <div class="slide1" id="HOME">
+            <div class="text">
+                <h1 style="color: black;">NAME</h1>
+            </div>
         </div>
-        <div id="hey">
+        <div class="slide2" id="ABOUT"><!--Make sure to double check the ID and CLASS for the css sheet-->
             <h1>Hello World!!</h1>
         </div>
+    </div>
     </body>
 </html>
