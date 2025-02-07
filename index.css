@@ -46,18 +46,20 @@ nav li {
     /*[justify-content:center;] removing this stops the nav bar from being in the middle */
     gap:10px;
     color:white;
-    background-image: url('./image.jpg');
+    background-image: url('./pictures/image.jpg');
     background-size: cover;
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
 }
-.text{
-    position: absolute;
-    top:70%;
-    left:44%;
+
+#text{
+    font-size: 200%;
 }
+
 
 .slide2{
     width: 100%;
