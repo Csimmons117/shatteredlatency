@@ -9,11 +9,12 @@ html{
     scroll-behavior: smooth;
 }
 /*Review this text below*/
+
 nav a{
     height: 100%;
-    color: white;
+    color: black;
     display: flex;
-    padding: 0 30px;
+    padding: 0 0px;
     text-decoration: none;
     align-items: center;
 }
@@ -22,8 +23,8 @@ nav li {
 
     list-style-type: none; /*This removes the list dots */
     
-    padding: 30px;
-    background-color: grey;
+    padding: 10px;
+    background-color: transparent;
     display: block;
     float: left;
     font-size: 30px;
@@ -66,7 +67,23 @@ nav li {
     height: 100vh;
     display:flex;
     
-    background-image: url('./testGrey.jpg');
+    background-image: url('./pictures/testGrey.jpg');
+
+    /*[align-items: center;]centers the text in the middle of the page with it removed its displayed in the middle at the top*/
+    /*[justify-content:center;] removing this stops the nav bar from being in the middle */
+    gap:10px;
+    color:white;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.slide3{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    
+    background-image: url('./pictures/testGrey.jpg');
 
     /*[align-items: center;]centers the text in the middle of the page with it removed its displayed in the middle at the top*/
     /*[justify-content:center;] removing this stops the nav bar from being in the middle */
