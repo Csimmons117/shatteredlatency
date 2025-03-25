@@ -18,13 +18,19 @@ html{
     padding-left: 10px;
     
 }*/
+nav {
+    display: flex;
+    justify-content: center; /* This centers the nav */
+    
+}
 nav a{
     /*background-color: pink;*/
     height: 100%;
+    
     color: white;
     display: flex;
     padding: 0 0px;
-    text-decoration: none;
+    text-decoration: none;/*removes the hyperlink link line*/
     align-items: center;/*keeping things in the nav*/
     
 }
@@ -41,12 +47,12 @@ nav ul li {
     list-style-type: none; /*This removes the list dots */
     padding: 10px;
     /*background-color: #0009;*/
-    display: block;
+    display: inline-block;
     font-size: 50px;
-    float: right;
-   margin-right: 265px;
+    
     white-space: nowrap;
     text-decoration: none;
+
 }
 
 #sticky{
