@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 /*Review this text below*/
-.logo{
+/*.logo{
     padding: 0 0px;
     background-color: transparent;
     float: left;
@@ -17,25 +17,34 @@ html{
     font-size: 30px;
     padding-left: 10px;
     
-}
+}*/
 nav a{
-    background-color: pink;
+    /*background-color: pink;*/
     height: 100%;
-    color: black;
+    color: white;
     display: flex;
     padding: 0 0px;
     text-decoration: none;
-    align-items: center;
+    align-items: center;/*keeping things in the nav*/
+    
 }
 
-nav li {
+nav ul li :hover {
+    background-color: lightblue;
+    color:black;
+
+    
+}
+
+nav ul li {
 
     list-style-type: none; /*This removes the list dots */
     padding: 10px;
-    background-color: transparent;
+    /*background-color: #0009;*/
     display: block;
+    font-size: 50px;
     float: right;
-    font-size: 30px;
+   margin-right: 265px;
     white-space: nowrap;
     text-decoration: none;
 }
@@ -55,7 +64,7 @@ nav li {
     /*[justify-content:center;] removing this stops the nav bar from being in the middle */
     gap:10px;
     color:white;
-    background-image: url('./pictures/image.jpg');
+    background-image: url('./pictures/sword.png');
     background-size: cover;
     background-repeat:no-repeat;
     background-size: cover;
@@ -85,7 +94,18 @@ nav li {
     background-repeat:no-repeat;
     background-size: cover;
 }
+.pro_test{
+    background-color: #0009;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    float: fixed;
+    right:-15%;
+    bottom:-20%;
+    border-radius: 50%;
+    
 
+}
 .slide3{
     width: 100%;
     height: 100vh;
