@@ -23,37 +23,44 @@ nav {
     justify-content: center; /* This centers the nav */
     
 }
+
 nav a{
     /*background-color: pink;*/
     height: 100%;
-    
+    padding: 0 30px;
     color: white;
-    display: flex;
-    
+    display: block;
+    text-align: center;
     text-decoration: none;/*removes the hyperlink link line*/
     align-items: center;/*keeping things in the nav*/
+    justify-content: center;
     
 }
+
+
+nav ul li {
+    background-color: grey;
+    list-style-type: none; /*This removes the list dots */
+    
+    /*background-color: #0009;*/
+    display: inline-block;
+    font-size: 50px;
+    white-space: nowrap;
+    text-decoration: none;
+    
+
+}
+
+
 
 nav ul li :hover {
     background-color: lightblue;
     color:black;
-
+    border-radius: 30px 30px 30px 30px;
     
 }
 
-nav ul li {
 
-    list-style-type: none; /*This removes the list dots */
-    padding: 10px 140px;
-    /*background-color: #0009;*/
-    display: inline-block;
-    font-size: 50px;
-    
-    white-space: nowrap;
-    text-decoration: none;
-
-}
 
 
 
@@ -94,7 +101,7 @@ nav ul li {
     height: 100vh;
     display:flex;
     
-    background-image: url('./pictures/testGrey.jpg');
+    background-image: url('./pictures/blackWallpaper.jpg');
 
     /*[align-items: center;]centers the text in the middle of the page with it removed its displayed in the middle at the top*/
     /*[justify-content:center;] removing this stops the nav bar from being in the middle */
@@ -105,7 +112,7 @@ nav ul li {
     background-size: cover;
 }
 .pro_test{
-    background-color: #0009;
+    background-color: #03d3fc;
     height: 800px;
     width: 600px;
     position: relative;
