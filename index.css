@@ -19,7 +19,7 @@ html{
     
 }*/
 nav {
-    display: flex;
+    /*display: flex;*/ /*removing this moves the nav to the front*/
     justify-content: center; /* This centers the nav */
     
 }
@@ -29,7 +29,7 @@ nav a{
     
     color: white;
     display: flex;
-    padding: 0 0px;
+    
     text-decoration: none;/*removes the hyperlink link line*/
     align-items: center;/*keeping things in the nav*/
     
@@ -45,7 +45,7 @@ nav ul li :hover {
 nav ul li {
 
     list-style-type: none; /*This removes the list dots */
-    padding: 10px;
+    padding: 10px 140px;
     /*background-color: #0009;*/
     display: inline-block;
     font-size: 50px;
@@ -55,10 +55,14 @@ nav ul li {
 
 }
 
+
+
+
 #sticky{
     position:fixed;
     top:0;
     width: 100%;
+    z-index: 999;
 }
 
 .slide1 {
@@ -102,15 +106,30 @@ nav ul li {
 }
 .pro_test{
     background-color: #0009;
-    height: 600px;
+    height: 800px;
     width: 600px;
     position: relative;
     float: fixed;
-    right:-15%;
-    bottom:-20%;
-    border-radius: 50%;
-    
+    right:-10%;
+    bottom:-10%;
+    z-index: 3;/*higher the number closer to the foreground*/
+    border-radius: 30px 20px 40px 70px;
+    white-space: pre-line;/*prevents text from over flow and break the text so it donesnt leave the div*/
 
+}
+
+.csunAP {
+    display:inline-block;
+    background-color: hotpink;
+    height: 200px;
+    width: 800px;
+    position: relative;
+    float: fixed;
+    right:-120%;
+    bottom:67.7%;
+    z-index: 2;
+    border-radius: 20px 40px 20px 40px;
+    white-space: pre-line;
 }
 .slide3{
     width: 100%;
