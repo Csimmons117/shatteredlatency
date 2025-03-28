@@ -18,58 +18,11 @@ html{
     padding-left: 10px;
     
 }*/
-nav {
-    /*display: flex;*/ /*removing this moves the nav to the front*/
-    justify-content: center; /* This centers the nav */
+nav{
+    margin:0;
+    padding:0;
+    border: 10px solid darkred;
     
-}
-
-nav a{
-    /*background-color: pink;*/
-    height: 100%;
-    padding: 0 30px;
-    color: white;
-    display: block;
-    text-align: center;
-    text-decoration: none;/*removes the hyperlink link line*/
-    align-items: center;/*keeping things in the nav*/
-    justify-content: center;
-    
-}
-
-
-nav ul li {
-    background-color: grey;
-    list-style-type: none; /*This removes the list dots */
-    
-    /*background-color: #0009;*/
-    display: inline-block;
-    font-size: 50px;
-    white-space: nowrap;
-    text-decoration: none;
-    
-
-}
-
-
-
-nav ul li :hover {
-    background-color: lightblue;
-    color:black;
-    border-radius: 30px 30px 30px 30px;
-    
-}
-
-
-
-
-
-
-#sticky{
-    position:fixed;
-    top:0;
-    width: 100%;
-    z-index: 999;
 }
 
 .slide1 {
