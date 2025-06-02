@@ -8,12 +8,12 @@
 /*This the the whole html webpage making a change here will effect the whole page*/
 html{
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: grey;
     color: white;
 }
 /*START OF NAV*/
 nav{
-    border: 10px,pink,solid;
+    
     text-align: center;
 
     overflow: hidden;/*This remove the dots on the website*/
@@ -21,13 +21,15 @@ nav{
     margin: 0;
     padding:0;
     width: 100%;
+    border-bottom: 2px solid black;/*line*/
+
 
 }
-li{
+nav li{
     float: left;
     display: inline-block;
-    border:10px, white,solid;
-    padding:10px;
+    padding: 10px;
+    border-bottom:10px, pink;
 }
 #support{
     float: right;
@@ -45,9 +47,9 @@ li{
 }
 
 .welcome{
-    border: 10px,white,solid;
+    
 }
 
 .goal{
-    border: 10px,red,solid;
+    
 }
