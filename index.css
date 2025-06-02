@@ -5,6 +5,49 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+/*This the the whole html webpage making a change here will effect the whole page*/
 html{
     scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+}
+/*START OF NAV*/
+nav{
+    border: 10px,pink,solid;
+    text-align: center;
+
+    overflow: hidden;/*This remove the dots on the website*/
+    
+    margin: 0;
+    padding:0;
+    width: 100%;
+
+}
+li{
+    float: left;
+    display: inline-block;
+    border:10px, white,solid;
+    padding:10px;
+}
+#support{
+    float: right;
+}
+/*END OF NAV*/
+
+
+.company_name{
+
+    text-align: center;
+    font-size: 60px;
+}
+.quote{
+    text-align: center;
+}
+
+.welcome{
+    border: 10px,white,solid;
+}
+
+.goal{
+    border: 10px,red,solid;
 }
