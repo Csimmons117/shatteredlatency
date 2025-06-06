@@ -70,7 +70,12 @@ nav li{
 
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom:0; right: 0;/*Manually center the div couldn't make flex work*/
+    top: 100px; left: 0; bottom:0; right: 0;/*Manually center the div couldn't make flex work*/
+}
+.inner-info{
+    border:10px, red,solid;
+    text-align:center;
+    font-size:60px;
 }
 .slide-one{
     width: 100%;
