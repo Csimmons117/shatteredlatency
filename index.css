@@ -77,6 +77,16 @@ nav li{
     text-align:center;
     font-size:60px;
 }
+.box{
+    border:10px, orange , solid;
+    display: table-cell;
+    width:600px;
+    bottom:0;
+
+    
+    
+
+}
 .slide-one{
     width: 100%;
     height: 100vh;/*this takes up the whole page*/
