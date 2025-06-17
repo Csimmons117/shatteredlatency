@@ -122,7 +122,7 @@ top: 0;
     color: white;
     font-weight: bold;
     padding: 30px;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     -webkit-text-stroke: 1px black;
 }
@@ -141,12 +141,12 @@ top: 0;
     color:white;
 ;
     
-    font-size: 20px;
+    font-size: 40px;
     
 }
 
 .solutions-text {
-    font-size: 30px;
+    font-size: 50px;
 }
 .image-container {
     text-align: center;
