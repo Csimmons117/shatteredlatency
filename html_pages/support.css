@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif; /*keeping this here if i want to change : monospace*/
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*This the the whole html webpage making a change here will effect the whole page*/
+html{
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+    min-width: 100vh;
+    overflow-x: auto;
+}
+/*START OF NAV*/
+nav{
+    
+    text-align: center;
+
+    overflow: hidden;/*This remove the dots on the website*/
+    font-size: 25px;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    border-bottom: 2px solid black;/*line*/
+
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    border-bottom:10px, pink;
+}
+#support{
+    float: right;
+}
+.sticky{
+position: sticky;
+background-color: black;
+top: 0;
+
+}
+/*END OF NAV*/
+body{
+    height:100vh;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 500px;
+    padding:30px;
+    border:1px solid #eeeeee;
+    border-radius: 10px;
+    background-color: #003b5b;
+}
+h4{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom: 10px;
+     }
+textarea{
+    width:100%;
+    padding: 10px;
+
+}
+#submit{
+    border:none;
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: #333333;
+}
